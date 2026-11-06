@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e6b2a1;
+    padding: 20px;
+    color: #333;
+}
+
+h1.Header {
+    color: #9078d7;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #9078d7;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+h3 {
+    color: #9078d7;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.user-info {
+    font-weight: bold;
+    color: #333;
+    flex: 1;
+}
+
+textarea {
+    display: block;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.modifyarea {
+    display: block;
+    background-color: #f6f6f6;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+button {
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #9078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7a5fc7;
+}
+
+button.logout {
+    background-color: #342056;
+    padding: 8px 16px;
+    font-size: 13px;
+    margin: 0;
+    margin-top: 0;
+}
+
+
+.appointment {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #8971d0;
+    color: white;
+}
+
+.appointment-username {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.appointment-content {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.appointment-datetime {
+    text-align: right;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.button-group form {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 0;
+    padding: 0;
+    background: none;
+}
+
+.button-group button {
+    flex: 1;
+    width: 100%;
+    margin-top: 0;
+}
